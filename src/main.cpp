@@ -230,6 +230,8 @@ void loop() {
       Debug.println(formattedTime);
       Debug.println("IP_adr: ");
       Debug.println(IP_adr.c_str());
+      Debug.println("Mac_adr: ");
+      Debug.println(WiFi.macAddress().c_str());
       Debug.print("ph: ");
       Debug.println(ph);
       Debug.print("ph_adc: ");
